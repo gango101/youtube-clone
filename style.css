@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
 }
 html{
 	background: #eeeeee;
@@ -7,12 +8,12 @@ html{
 body{
 	border: 2px solid grey;
 	margin: 50px 160px;
-	height: 2778px;
+	height: 2775px;
 	padding: 0;
 } 
 .main-header{
 	height: 65px;
-	background: whitesmoke;
+	background: white;
 	margin: 0 0 10px 0;
 }
 .main-content{
@@ -21,7 +22,7 @@ body{
 	margin: 0;
 }
 .video-player{
-	background: whitesmoke;
+	background: white;
 	width: 640px;
 	height: 900px;
 	margin-right: 5px;
@@ -30,12 +31,77 @@ body{
 	border: 0;
 }
 .recommended-videos{
-	background: whitesmoke;
+	background: white;
 	width: 384px;
 	margin-left: 5px;
 	margin-right: 0;
-	height: 900px;
+}
+.recommended-videos hr{
+	margin-left: 10px;
+	margin-right: 10px;
 }
 .upnext{
 	display: flex;
+	margin: 10px;
+	align-items: center;
+	position: relative;
 }
+.upnext h4{
+	margin: 0;
+}
+.upnext label{
+	font-size: 14px;
+	color: #767676;
+}
+.auto-play{
+	position: absolute;
+	left: 200px;
+}
+.info{
+	position: absolute;
+	left: 260px;
+}
+.toggle-button{
+	position: absolute;
+	right: 0;
+}
+.next-video-section{
+	margin: 0 10px;
+	display: flex;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.next-video{
+	position: relative;
+	height: 94px;
+}
+.next-video-section .duration{
+	position: absolute;
+	color: white;
+	background: black;
+	bottom: 0;
+	right: 0;
+}
+.video-details{
+	height: 94px;
+	margin: 0 10px;
+}
+.video-details h4{
+	font-size: 14px;
+	color: #333333;
+	margin: 0;
+}
+.video-details span{
+	font-size: 11px;
+	color: #767676;
+}
+.show-more{
+	font-size: 13px;
+	color: #767676;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	margin: 5px 0;
+}
+
