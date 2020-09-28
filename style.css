@@ -1,6 +1,41 @@
+*{
+	box-sizing: border-box;
+}
 html{
-	background: #e0e0e0;
+	background: #eeeeee;
 }
 body{
-	border: solid 10px red;
+	border: 2px solid grey;
+	margin: 50px 160px;
+	height: 2778px;
+	padding: 0;
 } 
+.main-header{
+	height: 65px;
+	background: whitesmoke;
+	margin: 0 0 10px 0;
+}
+.main-content{
+	display: flex;
+	width: 1024px;
+	margin: 0;
+}
+.video-player{
+	background: whitesmoke;
+	width: 640px;
+	height: 900px;
+	margin-right: 5px;
+	margin-left: 0;
+	padding: 0;
+	border: 0;
+}
+.recommended-videos{
+	background: whitesmoke;
+	width: 384px;
+	margin-left: 5px;
+	margin-right: 0;
+	height: 900px;
+}
+.upnext{
+	display: flex;
+}
