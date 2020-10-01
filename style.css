@@ -19,8 +19,12 @@ body{
 .color-text{
 	color: #767676;
 }
+.logo-resize{
+	max-width: 110px;
+	max-height: 35px;
+	padding: 5px;
+}
 .main-header{
-	/* height: 65px; */
 	padding: 15px;
 	background: white;
 	margin: 0 0 25px 0;
@@ -41,11 +45,12 @@ body{
 .logo{
 	position: relative;
 }
-.logo img{
+/* .logo img{
 	max-width: 110px;
 	max-height: 35px;
 	padding: 5px;
-}
+} */
+
 .country-code{
 	position: absolute;
 	top:0;
@@ -108,7 +113,7 @@ body{
 	margin: 0;
 }
 .video-player-section{
-	background: white;
+	
 	width: 65%;
 	margin-right: 5px;
 	margin-left: 0;
@@ -198,7 +203,7 @@ body{
 }
 .footer{
 	background: white;
-	margin-top: 125px;
+	margin-top: 20px;
 }
 a{
 	text-decoration: none;
@@ -206,4 +211,27 @@ a{
 }
 ul{
 	list-style: none;
+}
+.footer-icons{
+	display: flex;
+	align-items: center;
+	padding-left: 40px;
+}
+.footer-icons img{
+	padding: 5px;
+}
+.about-youtube{
+	display: flex;
+}
+.about-youtube li{
+	padding-right: 20px;
+}
+.about-terms{
+	display: flex;
+	align-items: center;
+	padding-bottom: 30px;
+}
+.about-terms li{
+	padding-right: 25px;
+	font-size: 12px;
 }
